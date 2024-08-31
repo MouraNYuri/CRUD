@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%
+}
+
+body {
+    font-family: sans-serif;
+}
+
+ul {
+    list-style: none
+}
+
+img {
+    display: block;
+    max-width: 100%
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+#produtoForm {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+label {
+    font-size: 2.4rem;
+}
+
+#nome, 
+#preco {
+    font-size: 1.6rem;
+    border: 1px #ccc solid;
+    padding: 0.4rem;
+}
+
+#submit {
+    font-size: 1.6rem;
+    padding: 0.8rem 1.2rem;
+    background: #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    max-width: max-content;
+}
+
+#submit:hover {
+    background: #bebebe;
+}
+
+#produtoTable {
+    padding: 2rem;
+}
+
+#produtoTable th {
+    padding-right: 2rem;
+    font-size: 2rem;
+}
+
+#produtoTable td {
+    padding-right: 2rem;
+    font-size: 1.6rem;
+}
+
+button {
+    font-size: 1.6rem;
+    padding: 0.8rem;
+    background: none;
+    border-radius: 5px;
+    cursor: pointer;
+    max-width: max-content;
+}
+
+button.deletar {
+    background: tomato;
+}
+
+button.deletar:hover {
+    background: rgb(240, 93, 67);
+}
+
+button.atualizar{
+    background: #ccc;
+}
+
+button.atualizar:hover {
+    background: #bebebe;
+}

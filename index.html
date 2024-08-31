@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>CRUD</title>
+</head>
+<body>
+
+    <!--Formulário-->
+    <form id="produtoForm">
+        <label>
+            Nome
+            <input type="text" id="nome" maxlength="15" required>
+        </label>
+        <label>
+            Preço
+            <input type="number" id="preco" min="0" max="99" required>
+        </label>
+        <input type="submit" id="submit" value="Enviar">
+    </form>
+
+    <!--Tabela dos Produtos-->
+    <table id="produtoTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Preço</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+
+        <!--Visualização dos Produtos-->
+        <tbody>
+            
+        </tbody>
+    </table>
+
+    <script src="app.js"></script>
+</body>
+</html>
